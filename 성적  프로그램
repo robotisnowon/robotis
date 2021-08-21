@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(){
+	int a[3] = {0,};
+	int max;
+	scanf("%d", &a[0]);
+	scanf("%d", &a[1]);
+	scanf("%d", &a[2]);
+	printf("%d", a[0]); 
+	
+	printf("총점은 : %d \n", a[0]+a[1]+a[2]);
+	printf("평균은 : %d \n", (a[0]+a[1]+a[2])/3);
+	max=a[0];
+	if(max<a[1]){
+		max=a[1];
+	}
+	if(max<a[2]){
+		max=a[2];
+	}
+	printf("최고점수는 : %d ",max);
+
+}
