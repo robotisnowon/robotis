@@ -1,0 +1,4 @@
+ int a = 50;
+ float b = 100.12;
+ float c = b*a;
+ printf ("%.2f*%d = %.f",b, a, c);
