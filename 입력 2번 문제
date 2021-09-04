@@ -1,0 +1,5 @@
+	float a = 80.50;
+	float b = 22.34;
+	float c = a + b;
+	printf ("%10.2f %10.2f", a, b);	
+	printf ("%10.2f",c);
