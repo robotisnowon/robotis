@@ -1,0 +1,9 @@
+	int a = 70;
+	int b = 95;
+	int c = 63;
+	int d = 100;
+	int sum = a + b + c + d;
+	int avg = sum/4;
+	printf ("sum = %d\n",sum);
+	printf("avg = %d", avg);
+}
