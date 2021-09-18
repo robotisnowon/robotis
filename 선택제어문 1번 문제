@@ -1,0 +1,4 @@
+	int a = 85;
+	int b = 50;
+	int c = a - b;
+	printf("%d", c);
